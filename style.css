@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  background-color: #f7f7f9 !important;
+}
+
+.fill {
+  min-height: 100%;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.col-center {
+  float: none;
+  margin: 0 auto;
+}
+
+.card a {
+  color: white;
+}
+
+.dark {
+  background-color: #333 !important;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  max-height: 300px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+th {
+  white-space: nowrap;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #333 !important;
+  color: #f2f2f2;
+  padding: 15px !important;
+}
