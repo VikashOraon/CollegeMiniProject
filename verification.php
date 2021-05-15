@@ -17,6 +17,9 @@
   }
 
   //this will create a string of elements of ids[] separated by comas
+   if($ids == null){
+    $ids = array(0);
+  }
    $id = implode(",", $ids);
    $index = 1;
   
